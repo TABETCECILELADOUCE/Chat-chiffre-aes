@@ -12,8 +12,8 @@ Toutes les communications entre le client et le serveur sont chiffrées de bout 
 - Notifications temps réel lors de l'arrivée ou du départ d'un utilisateur (`X a rejoint / quitté le salon`).
 
 
-## Outils installés Installation
-
-1. Cloner le projet GitHub 
-git clone [https://github.com/votre-compte/chat-chiffre-aes.git](https://github.com/votre-compte/chat-chiffre-aes.git)
-cd chat-chiffre-aes
+## Outils installés Installés
+python3 -m venv venv
+source venv/bin/active
+pip install websockets cryptographie
+lancement des codes: server.py et client.py en local sur deux terminaux differents
