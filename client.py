@@ -36,6 +36,7 @@ async def send_messages(websocket, pseudo):
 
 async def main():
     server_url = input("Entrez l'URL WebSocket du serveur").strip()
+    server_url= "wss://chat-chiffre-aes-4-onrender.com"
     pseudo = input("Choisissez votre pseudo : ").strip()
     
     while not pseudo:
