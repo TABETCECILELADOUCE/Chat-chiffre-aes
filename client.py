@@ -35,7 +35,7 @@ async def send_messages(websocket, pseudo):
             break
 
 async def main():
-    server_url = input("Entrez l'URL WebSocket du serveur (ex: wss://votre-app.onrender.com ou ws://localhost:8765) : ").strip()
+    server_url = input("Entrez l'URL WebSocket du serveur").strip()
     pseudo = input("Choisissez votre pseudo : ").strip()
     
     while not pseudo:
